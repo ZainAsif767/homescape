@@ -51,6 +51,7 @@ export default function Home() {
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
           <p>This is the begining of our Project</p>
+          <p>HOMESCAPE</p>
         </a>
 
         <a
@@ -87,7 +88,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with Vercel..
           </p>
         </a>
       </div>
