@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-        Getting started with Homescape&nbsp;
+          Getting started with Homescape&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -50,6 +50,8 @@ export default function Home() {
             Docs <span>-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
+          <p>This is the begining of our Project</p>
+          <p>HOMESCAPE</p>
         </a>
 
         <a
@@ -86,10 +88,10 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with Vercel..
           </p>
         </a>
       </div>
     </main>
-  )
+  );
 }
